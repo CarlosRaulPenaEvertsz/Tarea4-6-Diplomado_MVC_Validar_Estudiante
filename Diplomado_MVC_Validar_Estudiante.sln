@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplomado_MVC_Validar_Estudiante", "Diplomado_MVC_Validar_Estudiante\Diplomado_MVC_Validar_Estudiante.csproj", "{5FE01F73-DE88-4803-A0E2-18F99D08430C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FE01F73-DE88-4803-A0E2-18F99D08430C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE01F73-DE88-4803-A0E2-18F99D08430C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE01F73-DE88-4803-A0E2-18F99D08430C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE01F73-DE88-4803-A0E2-18F99D08430C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E18F4D1A-B51D-49F9-91C0-9FD2330310D6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿@model Diplomado_MVC_Validar_Estudiante.Models.Estudiante
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @Html.ValidationSummary()
+        @using (Html.BeginForm())
+        {
+            <p>
+                Ingrese Nombres:
+                @Html.EditorFor(model => model.Nombres)
+            </p>
+            <p>
+                Ingrese Apellidos:
+                @Html.EditorFor(model => model.Apellidos)
+            </p>
+            <p>
+                Ingrese Edad (Entre 14 y 65 Años:
+                @Html.EditorFor(model => model.Edad)
+            </p>
+            <p>
+                Ingrese Email:
+                @Html.EditorFor(model => model.Email)
+            </p>
+            <p>
+                Ingrese Género:
+                @Html.EditorFor(model => model.Genero)
+            </p>
+            <p>
+                Ingrese Estado Civil:
+                @Html.EditorFor(model => model.EstadoCivil)
+            </p>
+            <p>
+                <input type="submit" value="Confirmar" />
+            </p>
+        }
+    </div>
+</body>
+</html>
+
+
